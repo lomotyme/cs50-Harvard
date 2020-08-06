@@ -24,15 +24,15 @@ int main(void)
 
   if (round(index) < 0)
   {
-    printf("Before Grade 1 \n");
+    printf("Before Grade 1\n");
   }
   else if (round(index) >= 16)
   {
-    printf("Grade 16+ \n");
+    printf("Grade 16+\n");
   }
   else
   {
-    printf("Grade: %i\n", (int) round(index));
+    printf("Grade %i\n", (int) round(index));
   }
 }
 
